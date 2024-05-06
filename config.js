@@ -14,7 +14,7 @@ module.exports = {
   LANG: process.env.LANG || "EN",
   AUTH_TOKEN: "",
   HANDLERS:
-    process.env.HANDLER === "false" || process.env.HANDLER === "."
+    process.env.HANDLER === "true" || process.env.HANDLER === "#"
       ? "^"
       : "^[#]",
   RMBG_KEY: process.env.RMBG_KEY || false,
